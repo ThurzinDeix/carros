@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html{
+    background-color: rgb(197, 197, 197);
+}
+
+#menu{
+    display: flex;
+    background-color: red;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+li{
+    display: inline-flex;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    margin-left: 1rem;
+    color: orange;
+    font: Bold 30px arial;
+}
+
+
+#carrossel{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carrossel img{
+    height: 300px;
+    border-radius: 20px;
+
+}
+
+#sf:hover, #sv:hover{
+    cursor: pointer;
+}
+
+#backcarro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+#sf, #sv{
+    margin: 5px;
+    color: orange;
+}
+
+#titpc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#tc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.t1{
+    font: normal 20px arial;
+    color: orange;
+}
+
+#resp, #nome{
+    font: bold 30px arial;
+    color: orange;
+}
+
+#contagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+
+#conta{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: red;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+#conta > p{
+    font: normal 20px arial;
+    color: orange;
+}
+
+#botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(255, 166, 0);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+#botao:hover{
+    transition: 0.4s;
+    background-color: rgb(194, 126, 0);
+    cursor: pointer;
+}
+
+#botao > p{
+    font: bold 20px arial;
+    color: rgb(0, 0, 0);
+}
+
+#res{
+    margin-top: 20px;
+    font: normal 20px arial;
+    color: orange;
+}
